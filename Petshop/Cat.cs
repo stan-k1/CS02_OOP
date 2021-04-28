@@ -27,5 +27,10 @@ namespace Petshop
             insertionDate = DateTime.Now;
         }
 
+        public void Mew()
+        {
+            Console.WriteLine($"{name} has mewed!");
+        }
+
     }
 }

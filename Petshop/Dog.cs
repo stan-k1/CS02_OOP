@@ -27,5 +27,10 @@ namespace Petshop
             insertionDate = DateTime.Now;
         }
 
+        public void Bark()
+        {
+            Console.WriteLine($"{name} has barked!");
+        }
+
     }
 }
