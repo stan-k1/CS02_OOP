@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Animals_Example", "CS02_OOP\Animals_Example.csproj", "{1A21AE52-B9B7-490E-8613-649EB83F1A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petshop", "Petshop\Petshop.csproj", "{A3F92D44-1163-4F6C-AB8B-C9E9339F9EFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A21AE52-B9B7-490E-8613-649EB83F1A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A21AE52-B9B7-490E-8613-649EB83F1A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A21AE52-B9B7-490E-8613-649EB83F1A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A21AE52-B9B7-490E-8613-649EB83F1A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F92D44-1163-4F6C-AB8B-C9E9339F9EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F92D44-1163-4F6C-AB8B-C9E9339F9EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F92D44-1163-4F6C-AB8B-C9E9339F9EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F92D44-1163-4F6C-AB8B-C9E9339F9EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D35FE572-C574-4EE6-9A79-5C3BD02835CD}
+	EndGlobalSection
+EndGlobal
