@@ -1,5 +1,6 @@
 ﻿using System;
 using Animals_Example;
+using CS02_Examples;
 
 namespace CS02_OOP
 {
@@ -23,7 +24,10 @@ namespace CS02_OOP
 
             mamba.Length = 150; //The length of a snake cannot exceed 100!
             mamba.Length = 30.2768f; 
-            Console.Write(mamba.Length); //30.28
+            Console.WriteLine(mamba.Length); //30.28
+
+            IShape triangle = new Triangle(1,2);
+            Console.WriteLine(ShapeOperations.DoubleAndRoundArea(triangle)); //2
         }
     }
 }
