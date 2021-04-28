@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CS02_OOP
 {
-    class Cat : Animal
+    public class Cat : Animal
     {
         string breed { get; set; }
         string greeting = "Hello from Cat!";
@@ -30,5 +30,11 @@ namespace CS02_OOP
             Console.WriteLine(greeting); //"Hello from Cat!"
             Console.WriteLine(base.greeting); //"Hello from Animal"
         }
+
+        public string GetName()
+        {
+            return this.name; //OK
+        }
+
     }
 }
