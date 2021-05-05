@@ -28,6 +28,17 @@ namespace CS02_OOP
 
             IShape triangle = new Triangle(1,2);
             Console.WriteLine(ShapeOperations.DoubleAndRoundArea(triangle)); //2
+
+            Customer annaCustomer = new ("Anna", "Karenina");
+            Customer annaCustomerCopy = new ("Anna", "Karenina");
+            Console.WriteLine(annaCustomer==annaCustomerCopy); //True
+            Console.WriteLine(annaCustomer); //Customer { FirstName = Anna, LastName = Karenina }
+
+            Customer annaChanged = annaCustomer with {FirstName = "Anneta"};
+            Console.WriteLine(annaCustomer == annaChanged); //False
+
+            BusinessCustomer annaBusinessCustomer = new("Anna", "Karenina", "Perfumes Corp");
+            Console.WriteLine(annaCustomer == annaBusinessCustomer); //False because annaCustomer does not include the BusinessName field
         }
     }
 }
