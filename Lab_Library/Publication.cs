@@ -20,6 +20,7 @@ namespace Lab_Library
             Title = title;
             Author = author;
             Publisher = publisher;
+            Publications.Add(this);
         }
 
         public static List<Publication> GetAvailables()
