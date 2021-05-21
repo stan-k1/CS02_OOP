@@ -36,6 +36,8 @@ namespace Clock
             else Console.WriteLine("Could not create alarm clock. Invalid parameters.");
         }
 
+        public AlarmClock() { };
+
         public bool SetAlarm(int hour, int min, string alarmMsg)
         {
             if (hour <= 24 && min <= 60)

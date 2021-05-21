@@ -8,6 +8,9 @@ namespace Clock
     {
         public int Hour { get; set; }
         public int Min { get; set; }
+        public TimeZone Zone { get; set; } = GMT;
+
+        public static TimeZone GMT = new TimeZone { ZoneName = "Greenwich Mean Time", Diff = 0 };
 
         public Clock() { }
 

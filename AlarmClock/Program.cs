@@ -6,7 +6,7 @@ namespace Clock
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TimeZone EEST = new TimeZone { ZoneName = "Easter European Summer Time", Diff = 3 };
         }
     }
 }
